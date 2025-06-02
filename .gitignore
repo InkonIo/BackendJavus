@@ -1,5 +1,3 @@
-# Существующий .gitignore
-
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
@@ -34,5 +32,5 @@ build/
 ### VS Code ###
 .vscode/
 
-# Добавляем игнорирование файла с ключом OpenAI
-/src/main/resources/application.properties
+### 🔒 Секреты и чувствительные данные ###
+.env
